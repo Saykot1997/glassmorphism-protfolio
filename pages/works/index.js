@@ -60,7 +60,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/blog">
                                             <a>
                                                 <Image
@@ -82,7 +82,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/flipkart">
                                             <a>
                                                 <Image
@@ -104,7 +104,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems  group'>
                                         <Link href="/works/flipkartAdmin">
                                             <a>
                                                 <Image
@@ -126,7 +126,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/facebookClone">
                                             <a>
                                                 <Image
@@ -148,7 +148,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/agentList">
                                             <a>
                                                 <Image
@@ -176,7 +176,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/reactRwebsite">
                                             <a>
                                                 <Image
@@ -198,7 +198,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/apploading">
                                             <a>
                                                 <Image
@@ -220,7 +220,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/ecommerce">
                                             <a>
                                                 <Image
@@ -242,7 +242,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/watchShope">
                                             <a>
                                                 <Image
@@ -264,7 +264,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/bookShope">
                                             <a>
                                                 <Image
@@ -286,7 +286,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/barberShope">
                                             <a>
                                                 <Image
@@ -309,7 +309,7 @@ export default function Works() {
 
                                 {/* work items start */}
                                 <div className=' w-full'>
-                                    <div className=' w-full p-3 bg-white bg-opacity-30 rounded-xl cursor-pointer group'>
+                                    <div className='workItems group'>
                                         <Link href="/works/animationsWebsite">
                                             <a>
                                                 <Image
