@@ -18,7 +18,7 @@ import photo12 from "../../images/work12.png"
 import Image from 'next/image'
 
 
-export default function works() {
+export default function Works() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter()

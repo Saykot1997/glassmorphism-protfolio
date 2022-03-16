@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 
-export default function about() {
+export default function About() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter()

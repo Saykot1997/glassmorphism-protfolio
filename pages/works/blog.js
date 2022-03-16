@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
-export default function blog() {
+export default function Blog() {
 
     const router = useRouter()
 

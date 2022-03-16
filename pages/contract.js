@@ -10,7 +10,7 @@ import { ImLinkedin2 } from 'react-icons/im'
 import { BsWhatsapp } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
 
-export default function contract() {
+export default function Contract() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter()

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
-export default function agentList() {
+export default function AgentList() {
 
     const router = useRouter()
 

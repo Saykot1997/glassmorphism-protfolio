@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
-export default function flipkart() {
+export default function Flipkart() {
 
     const router = useRouter()
 
