@@ -42,7 +42,7 @@ export default function Home() {
             {/* menu button end */}
             <div className=' w-full h-full flex-wrap flex sm:items-center sm:justify-between px-5 pt-10 sm:p-10'>
               <div className=' sm:w-1/2 w-full order-2 sm:order-1 sm:pl-12 text-center sm:mt-0 mt-5'>
-                <p className=' text-gray-800 text-lg'>Hello, I'm</p>
+                <p className=' text-gray-800 text-lg'>Hello, I am</p>
                 <p className=' sm:text-4xl text-2xl my-3 font-semibold text-gray-800'>Shohel Mia</p>
                 <p className=' text-gray-700 sm:text-xl text-lg'>Full Stack Web Developer</p>
                 <div className=' mt-5'>
