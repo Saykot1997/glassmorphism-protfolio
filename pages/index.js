@@ -5,6 +5,7 @@ import photo from "../images/Saykot.jpg"
 import Image from 'next/image'
 import MenuBar from '../components/MenuBar'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -46,8 +47,16 @@ export default function Home() {
                 <p className=' sm:text-4xl text-2xl my-3 font-semibold text-gray-800'>Shohel Mia</p>
                 <p className=' text-gray-700 sm:text-xl text-lg'>Full Stack Web Developer</p>
                 <div className=' mt-5'>
-                  <button onClick={() => router.push('/about')} className='commonbutton'>More About Me</button>
-                  <button onClick={() => router.push('/works')} className=' commonbutton mt-4'>Works</button>
+                  <Link href="/about">
+                    <a>
+                      <button className='commonbutton'>More About Me</button>
+                    </a>
+                  </Link>
+                  <Link href="/works">
+                    <a>
+                      <button className=' commonbutton mt-4'>Works</button>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className=' sm:w-1/2 w-full order-1 sm:order-2 text-center flex justify-center items-center'>

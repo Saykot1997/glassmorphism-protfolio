@@ -35,7 +35,8 @@ export default function FlipkartAdmin() {
                     showVideo ?
 
                         <div className=' w-full rounded-xl overflow-hidden shadow-sm shadow-white' >
-                            <iframe className=' w-full h-[200p] sm:h-[300px] md:h-[400px] lg:h-[560px]' src="https://www.youtube.com/embed/hf3Ncq3UX6c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className=' w-full h-[200p] sm:h-[300px] md:h-[400px] lg:h-[560px]' src="https://www.youtube.com/embed/JWSLB6k4qKk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
+                            </iframe>
                         </div>
                         :
                         <div className='w-full'>

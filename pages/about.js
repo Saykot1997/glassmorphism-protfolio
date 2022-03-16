@@ -4,6 +4,7 @@ import MenuBar from '../components/MenuBar'
 import photo from "../images/Saykot.jpg";
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import Link from 'next/link';
 
 
 export default function About() {
@@ -54,7 +55,7 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div className=' w-full md:w-[60%] md:mt-0 mt-5 sm:text-lg'>
-                                    <p>Hello, I am Saykot Hossain Shohel a selftaught full stack web developer. I love new new technology to learn and implement in projects. I have clear knowledge of software developement life cycle and have working experience on both frontend and backend also some devops tools like Docker, Kubernetes, Jenkins, Ansible, AWS EC2 and Linux. Primarily, I work on Javasctipt but have basic knowledge on several programing languages like python and php.</p>
+                                    <p>Hello, I am Saykot Hossain Shohel a selftaught full stack web developer. I love new technology to learn and implement in projects. I have clear knowledge of software developement life cycle and have working experience on both frontend and backend also some devops tools like Docker, Kubernetes, Jenkins, Ansible, AWS EC2 and Linux. Primarily, I work on Javasctipt but have basic knowledge on several programing languages like python and php.</p>
 
                                     {/* skillls */}
                                     <div>
@@ -122,8 +123,14 @@ export default function About() {
                                     {/* education */}
                                     {/* buttons */}
                                     <div className=' mt-10 mb-5 text-center'>
-                                        <button className='commonbutton'>Donnload CV</button>
-                                        <button onClick={() => router.push('/contract')} className='commonbutton sm:mt-0 mt-2 '>Contract Me</button>
+                                        <a href="CV.pdf" download>
+                                            <button className='commonbutton'>Donnload CV</button>
+                                        </a>
+                                        <Link href="/contract">
+                                            <a>
+                                                <button className='commonbutton sm:mt-0 mt-2 '>Contract Me</button>
+                                            </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
