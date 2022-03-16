@@ -54,7 +54,7 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div className=' w-full md:w-[60%] md:mt-0 mt-5 sm:text-lg'>
-                                    <p>Hello, I am Saykot Hossain Shohel a selftaught full stack web developer. I love new new technology to learn and implement in projects. I have clear knowledge of software developement life cycle and have working experience on both frontend and backend also some devops tools like Docker, Kubernetes, Jenkins, Ansible, AWS EC2 and Linux. Primaryly, I work on Javasctipt but have basic knowledge on several programing languages like python and php.</p>
+                                    <p>Hello, I am Saykot Hossain Shohel a selftaught full stack web developer. I love new new technology to learn and implement in projects. I have clear knowledge of software developement life cycle and have working experience on both frontend and backend also some devops tools like Docker, Kubernetes, Jenkins, Ansible, AWS EC2 and Linux. Primarily, I work on Javasctipt but have basic knowledge on several programing languages like python and php.</p>
 
                                     {/* skillls */}
                                     <div>
