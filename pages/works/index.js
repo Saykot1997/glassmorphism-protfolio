@@ -55,7 +55,7 @@ export default function Works() {
 
                         <div className=' w-full'>
                             <h4 className=' text-center text-lg sm:text-3xl md:text-4xl font-semibold'>Recent Works</h4>
-                            <p className=' text-xl font-semibold mt-5'>Full Stack Websites : </p>
+                            <p className=' text-lg sm:text-xl font-semibold mt-5'>Full Stack Websites : </p>
                             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5'>
 
                                 {/* work items start */}
@@ -171,7 +171,7 @@ export default function Works() {
 
 
                             {/* frontend websites */}
-                            <p className=' text-xl font-semibold mt-10 mb-5'>Frontend or Static Websites : </p>
+                            <p className=' text-lg sm:text-xl font-semibold mt-10 mb-5'>Frontend or Static Websites : </p>
                             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5'>
 
                                 {/* work items start */}

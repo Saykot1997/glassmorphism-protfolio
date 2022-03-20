@@ -19,7 +19,7 @@ export default function About() {
 
 
     return (
-        <div className=" relative min-h-screen w-full py-5 sm:py-16 flex justify-center items-center bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300">
+        <div className="relative min-h-screen w-full py-5 sm:py-16 flex justify-center items-center bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300">
             {/* animations div */}
             <div className="absolute h-full w-full top-0 left-0">
                 <div className=" fixed top-28 left-44 w-0 sm:w-16 h-0 sm:h-16 rounded-full bg-purple-500 animate-zoom"></div>
@@ -124,11 +124,11 @@ export default function About() {
                                     {/* buttons */}
                                     <div className=' mt-10 mb-5 text-center'>
                                         <a href="CV.pdf" download>
-                                            <button className='commonbutton'>Donnload CV</button>
+                                            <button className='commonbutton'>Donload CV</button>
                                         </a>
                                         <Link href="/contract">
                                             <a>
-                                                <button className='commonbutton sm:mt-0 mt-2 '>Contract Me</button>
+                                                <button className='commonbutton sm:mt-0 mt-2 '>Contact Me</button>
                                             </a>
                                         </Link>
                                     </div>

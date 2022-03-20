@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { GoThreeBars } from 'react-icons/go'
-import { AiOutlineClose } from 'react-icons/ai'
 import photo from "../images/Saykot.jpg"
 import Image from 'next/image'
 import MenuBar from '../components/MenuBar'
@@ -19,7 +18,7 @@ export default function Home() {
 
 
   return (
-    <div className=" relative min-h-screen w-full flex justify-center items-center bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300">
+    <div className="relative min-h-screen w-full flex justify-center items-center bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300">
       {/* animations div */}
       <div className="absolute h-full w-full top-0 left-0">
         <div className=" fixed top-28 left-44 w-0 sm:w-16 h-0 sm:h-16 rounded-full bg-purple-500 animate-zoom"></div>
