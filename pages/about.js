@@ -29,7 +29,7 @@ export default function About() {
             </div>
             {
                 isMenuOpen ?
-                    <MenuBar menubarToggle={menubarToggle} />
+                    <MenuBar menubarToggle={menubarToggle} AboutPage />
                     :
 
                     <div className='min-h-[95vh] sm:min-h-[85vh] w-[92%] sm:w-[85%] px-5 sm:px-10 py-5 bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm'>

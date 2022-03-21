@@ -72,6 +72,19 @@ export default function FacebookClone() {
                 </p>
 
                 <div className='my-5 '>
+
+                    {/* Features */}
+                    <h3 className=' text-lg sm:text-xl font-semibold text-gray-800'>Features :</h3>
+                    <div>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update user and their informations. </p>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Forget Password Reset. </p>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Send Friend Request , Accept Request and Delete Request. </p>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> See All Friends, Suggested Friends and  Requested Friends Profile Informations.</p>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update,Like and Dislike a Posts. </p>
+                        <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update, Delete, Reply, Like and Dislike the Post comments. </p>
+                    </div>
+                    {/* Features */}
+
                     <h3 className=' text-lg sm:text-xl my-3 sm:my-5 text-gray-800 font-semibold'>Technologies are used :</h3>
                     <div className=' mb-5'>
                         <h6 className='mb-2'>Frontend :</h6>

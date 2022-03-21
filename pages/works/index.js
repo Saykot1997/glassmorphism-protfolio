@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { GoThreeBars } from 'react-icons/go'
 import MenuBar from '../../components/MenuBar'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 import photo1 from "../../images/work1.png"
 import photo2 from "../../images/work2.png"
@@ -21,7 +20,6 @@ import Image from 'next/image'
 export default function Works() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const router = useRouter()
 
     const menubarToggle = () => {
 
@@ -40,7 +38,7 @@ export default function Works() {
             </div>
             {
                 isMenuOpen ?
-                    <MenuBar menubarToggle={menubarToggle} />
+                    <MenuBar menubarToggle={menubarToggle} WorkPage />
                     :
 
                     <div className='min-h-[95vh] sm:min-h-[85vh] w-[92%] sm:w-[85%] px-5 sm:px-10 py-5 bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm'>
@@ -61,18 +59,18 @@ export default function Works() {
                                 {/* work items start */}
                                 <div className=' w-full'>
                                     <div className='workItems group'>
-                                        <Link href="/works/blog">
+                                        <Link href="/works/facebookClone">
                                             <a>
                                                 <Image
-                                                    src={photo1}
+                                                    src={photo3}
                                                     alt="work1"
                                                     className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
                                                 />
                                             </a>
                                         </Link>
                                     </div>
-                                    <p className=' text-xl my-4 px-2'>Blog Website</p>
-                                    <Link href="/works/blog">
+                                    <p className=' text-xl my-4 px-2'>Social App Website</p>
+                                    <Link href="/works/facebookClone">
                                         <a>
                                             <button className='commonbutton'>View Project</button>
                                         </a>
@@ -127,18 +125,18 @@ export default function Works() {
                                 {/* work items start */}
                                 <div className=' w-full'>
                                     <div className='workItems group'>
-                                        <Link href="/works/facebookClone">
+                                        <Link href="/works/blog">
                                             <a>
                                                 <Image
-                                                    src={photo3}
+                                                    src={photo1}
                                                     alt="work1"
                                                     className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
                                                 />
                                             </a>
                                         </Link>
                                     </div>
-                                    <p className=' text-xl my-4 px-2'>Social App Website</p>
-                                    <Link href="/works/facebookClone">
+                                    <p className=' text-xl my-4 px-2'>Blog Website</p>
+                                    <Link href="/works/blog">
                                         <a>
                                             <button className='commonbutton'>View Project</button>
                                         </a>

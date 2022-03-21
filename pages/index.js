@@ -3,13 +3,11 @@ import { GoThreeBars } from 'react-icons/go'
 import photo from "../images/Saykot.jpg"
 import Image from 'next/image'
 import MenuBar from '../components/MenuBar'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 export default function Home() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const router = useRouter()
 
   const menubarToggle = () => {
 
@@ -28,7 +26,7 @@ export default function Home() {
       </div>
       {
         isMenuOpen ?
-          <MenuBar menubarToggle={menubarToggle} />
+          <MenuBar menubarToggle={menubarToggle} HomePage />
           :
           <div className='sm:h-[85vh] h-[95vh] w-[92%] sm:w-[85%] bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm relative'>
             {/* menu button */}

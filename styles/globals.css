@@ -22,6 +22,10 @@
     @apply w-full p-2 pb-1 sm:p-3 sm:pb-2 bg-white bg-opacity-30 rounded-xl cursor-pointer;
 }
 
+.featuresItem{
+    @apply my-3 flex items-center text-sm sm:text-base;
+}
+
 
 @tailwind utilities;
 @tailwind screens;

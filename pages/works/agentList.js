@@ -67,6 +67,15 @@ export default function AgentList() {
                 <p className=' text-gray-700 text-sm sm:text-base'>This is a agent list website.The purpose of making this website to enhance the personal skill of web developement and programing.
                 </p>
 
+                {/* Features */}
+                <h3 className=' text-lg sm:text-xl font-semibold text-gray-800 mt-3'>Features :</h3>
+                <div>
+                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update, Delete user and their informations by admin.</p>
+                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> All agents can be seen by normal user.</p>
+                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> User can complain against agents by whatsapp to master agents. </p>
+                </div>
+                {/* Features */}
+
                 <div className='my-5 '>
                     <h3 className=' text-lg sm:text-xl my-3 sm:my-5 text-gray-800 font-semibold'>Technologies are used :</h3>
                     <div className=' mb-5'>
