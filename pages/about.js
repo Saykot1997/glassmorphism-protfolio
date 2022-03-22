@@ -88,6 +88,7 @@ export default function About() {
                                             <div className='flex flex-wrap'>
                                                 <span className='skilitem'>Linux</span>
                                                 <span className='skilitem'>AWS EC2</span>
+                                                <span className='skilitem'>AWS EKS</span>
                                                 <span className='skilitem'>Docker</span>
                                                 <span className='skilitem'>Kubernetes</span>
                                                 <span className='skilitem'>Jenkins</span>

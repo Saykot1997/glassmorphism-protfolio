@@ -79,7 +79,7 @@ export default function Contract() {
                                                 </a>
                                             </div>
                                             <div className='linkItems group'>
-                                                <a href="https://www.linkedin.com/in/shohel-mia-6b31b9216/" target="_blank" rel="noopener noreferrer">
+                                                <a href="https://www.linkedin.com/in/shohel-mia-b72560234/" target="_blank" rel="noopener noreferrer">
                                                     <ImLinkedin2 className='contactIcon group-hover:text-white' />
                                                 </a>
                                             </div>
