@@ -32,11 +32,11 @@ export default function About() {
                     <MenuBar menubarToggle={menubarToggle} AboutPage />
                     :
 
-                    <div className='min-h-[95vh] sm:min-h-[85vh] w-[92%] sm:w-[85%] px-5 sm:px-10 py-5 bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm'>
+                    <div className=' z-30 min-h-[95vh] sm:min-h-[85vh] w-[92%] sm:w-[85%] px-5 sm:px-10 py-5 bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm'>
 
                         {/* menu button */}
                         <div className=' w-full flex justify-end'>
-                            <div onClick={menubarToggle} className=' cursor-pointer h-10 sm:h-14 w-10 sm:w-14 rounded-full bg-white bg-opacity-30 flex justify-center items-center hover:bg-pink-500 transition-all duration-300 ease-in-out group'>
+                            <div onClick={menubarToggle} className=' z-30 cursor-pointer h-10 sm:h-14 w-10 sm:w-14 rounded-full bg-white bg-opacity-30 flex justify-center items-center hover:bg-pink-500 transition-all duration-300 ease-in-out group'>
                                 <GoThreeBars className=' text-2xl text-pink-500 group-hover:text-white' />
                             </div>
                         </div>

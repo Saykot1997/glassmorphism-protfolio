@@ -28,7 +28,7 @@ export default function Home() {
         isMenuOpen ?
           <MenuBar menubarToggle={menubarToggle} HomePage />
           :
-          <div className='sm:h-[85vh] h-[95vh] w-[92%] sm:w-[85%] bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm relative'>
+          <div className=' z-30 sm:h-[85vh] h-[95vh] w-[92%] sm:w-[85%] bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm relative'>
             {/* menu button */}
             <div className='absolute top-2 right-7 w-full p-3 flex justify-end'>
 

@@ -18,7 +18,7 @@ function MenuBar({ menubarToggle, HomePage, AboutPage, WorkPage, ContractPage })
     }
 
     return (
-        <div className='min-h-[95vh] sm:min-h-[85vh] w-[92%] sm:w-[85%] flex justify-center items-center bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm relative'>
+        <div className='min-h-[95vh] z-30 sm:min-h-[85vh] w-[92%] sm:w-[85%] flex justify-center items-center bg-white bg-opacity-20 rounded-2xl backdrop-blur-sm relative'>
             {/* menu button */}
             <div className=' absolute top-2 right-7 w-full p-3 flex justify-end'>
                 <div onClick={() => menubarToggle()} className=' cursor-pointer h-14 w-14 rounded-full bg-white bg-opacity-30 flex justify-center items-center hover:bg-pink-500 group transition-all ease-in-out duration-300'>
