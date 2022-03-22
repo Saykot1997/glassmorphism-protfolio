@@ -13,10 +13,6 @@ export default function Blog() {
     const goBack = () => {
         router.push("/works")
     }
-    const [showVideo, setShowVideo] = useState(false);
-
-
-
 
     return (
         <div className=" relative min-h-screen w-full py-5 sm:py-16 flex justify-center items-center bg-gradient-to-br from-indigo-400 via-purple-300 to-pink-300">
@@ -31,24 +27,14 @@ export default function Blog() {
                 <div onClick={goBack} className=' z-10 absolute top-[-14px] right-[-14px] h-12 w-12 bg-white bg-opacity-30 shadow shadow-white hover:bg-pink-500 transition-all duration-300 ease-in-out rounded-full flex justify-center items-center backdrop-blur-lg cursor-pointer group'>
                     < AiOutlineClose className=' text-lg text-red-600 group-hover:text-white' />
                 </div>
-                {
-                    showVideo ?
-
-                        <div className=' w-full rounded-xl overflow-hidden shadow-sm shadow-white' >
-                            <iframe className=' w-full h-[200p] sm:h-[300px] md:h-[400px] lg:h-[560px]' src="https://www.youtube.com/embed/HbXCDy-mJaQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
-                        :
-                        <div className=' w-full'>
-                            <Image
-                                src={photo1}
-                                alt="photo1"
-                                className='w-full h-full object-cover rounded-xl'
-                            />
-                        </div>
-                }
-
+                <div className=' w-full'>
+                    <Image
+                        src={photo1}
+                        alt="photo1"
+                        className='w-full h-full object-cover rounded-xl'
+                    />
+                </div>
                 <div className=' mt-3 sm:mt-5'>
-                    <button onClick={() => setShowVideo(!showVideo)} className='commonbutton mt-3 lg:mt-0'>Live video Demo</button>
                     <Link href="https://saykotblog.herokuapp.com">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Live Demo</button>
