@@ -57,11 +57,11 @@ export default function Home() {
                 </div>
               </div>
               <div className=' sm:w-1/2 w-full order-1 sm:order-2 text-center flex justify-center items-center'>
-                <div className=' h-48 w-48 sm:h-52 sm:w-52 md:h-80 md:w-80 border-4 border-white rounded-full overflow-hidden'>
+                <div className='h-48 w-48 sm:h-52 sm:w-52 md:h-80 md:w-80 border-4 border-white rounded-full overflow-hidden'>
                   <Image
                     src={photo}
                     alt="Picture of the author"
-                    className=' rounded-full w-full h-full object-cover'
+                    className=' translate-x-2 rounded-full w-full h-full object-cover'
                   />
                 </div>
               </div>
