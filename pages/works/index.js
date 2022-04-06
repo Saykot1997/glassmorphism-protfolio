@@ -14,6 +14,7 @@ import photo9 from "../../images/work9.png"
 import photo10 from "../../images/work10.png"
 import photo11 from "../../images/work11.png"
 import photo12 from "../../images/work12.png"
+import photo13 from "../../images/work13.png"
 import Image from 'next/image'
 
 
@@ -171,6 +172,28 @@ export default function Works() {
                             {/* frontend websites */}
                             <p className=' text-lg sm:text-xl font-semibold mt-10 mb-5'>Frontend or Static Websites : </p>
                             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5'>
+
+                                {/* work items start */}
+                                <div className=' w-full'>
+                                    <div className='workItems group'>
+                                        <Link href="/works/space">
+                                            <a>
+                                                <Image
+                                                    src={photo13}
+                                                    alt="work1"
+                                                    className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
+                                                />
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <p className=' text-xl my-4 px-2'>Space Responsive Website</p>
+                                    <Link href="/works/space">
+                                        <a>
+                                            <button className='commonbutton'>View Project</button>
+                                        </a>
+                                    </Link>
+                                </div>
+                                {/* work items end */}
 
                                 {/* work items start */}
                                 <div className=' w-full'>
