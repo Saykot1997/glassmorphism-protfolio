@@ -36,7 +36,7 @@ export default function FacebookClone() {
                 </div>
 
                 <div className=' mt-3 sm:mt-5'>
-                    <Link href="https://fecebook-frontend.vercel.app/">
+                    <Link href="https://facebookclon.herokuapp.com/">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Live Demo</button>
                         </a>
