@@ -61,6 +61,27 @@ export default function Works() {
                                 {/* work items start */}
                                 <div className=' w-full'>
                                     <div className='workItems group'>
+                                        <Link href="/works/facebookClone">
+                                            <a>
+                                                <Image
+                                                    src={photo3}
+                                                    alt="work1"
+                                                    className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
+                                                />
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <p className=' text-xl my-4 px-2'>Facebook Clone</p>
+                                    <Link href="/works/facebookClone">
+                                        <a>
+                                            <button className='commonbutton'>View Project</button>
+                                        </a>
+                                    </Link>
+                                </div>
+                                {/* work items end */}
+                                {/* work items start */}
+                                <div className=' w-full'>
+                                    <div className='workItems group'>
                                         <Link href="/works/excelAutomation">
                                             <a>
                                                 <Image
@@ -81,7 +102,7 @@ export default function Works() {
                                 {/* work items end */}
 
                                 {/* work items start */}
-                                {/* <div className=' w-full'>
+                                <div className=' w-full'>
                                     <div className='workItems group'>
                                         <Link href="/works/flipkart">
                                             <a>
@@ -99,11 +120,11 @@ export default function Works() {
                                             <button className='commonbutton'>View Project</button>
                                         </a>
                                     </Link>
-                                </div> */}
+                                </div>
                                 {/* work items end */}
 
                                 {/* work items start */}
-                                {/* <div className=' w-full'>
+                                <div className=' w-full'>
                                     <div className='workItems  group'>
                                         <Link href="/works/flipkartAdmin">
                                             <a>
@@ -121,11 +142,11 @@ export default function Works() {
                                             <button className='commonbutton'>View Project</button>
                                         </a>
                                     </Link>
-                                </div> */}
+                                </div>
                                 {/* work items end */}
 
                                 {/* work items start */}
-                                {/* <div className=' w-full'>
+                                <div className=' w-full'>
                                     <div className='workItems group'>
                                         <Link href="/works/blog">
                                             <a>
@@ -143,11 +164,11 @@ export default function Works() {
                                             <button className='commonbutton'>View Project</button>
                                         </a>
                                     </Link>
-                                </div> */}
+                                </div>
                                 {/* work items end */}
 
                                 {/* work items start */}
-                                {/* <div className=' w-full'>
+                                <div className=' w-full'>
                                     <div className='workItems group'>
                                         <Link href="/works/agentList">
                                             <a>
@@ -165,7 +186,7 @@ export default function Works() {
                                             <button className='commonbutton'>View Project</button>
                                         </a>
                                     </Link>
-                                </div> */}
+                                </div>
                                 {/* work items end */}
                             </div>
 
