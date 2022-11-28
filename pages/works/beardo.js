@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
-import photo1 from "../../images/work1.png";
+import photo2 from "../../images/work (5).png";
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
-export default function Blog() {
+export default function Space() {
 
     const router = useRouter()
 
@@ -27,72 +27,46 @@ export default function Blog() {
                 <div onClick={goBack} className=' z-10 absolute top-[-14px] right-[-14px] h-12 w-12 bg-white bg-opacity-30 shadow shadow-white hover:bg-pink-500 transition-all duration-300 ease-in-out rounded-full flex justify-center items-center backdrop-blur-lg cursor-pointer group'>
                     < AiOutlineClose className=' text-lg text-red-600 group-hover:text-white' />
                 </div>
-                <div className=' w-full'>
+                <div className='w-full'>
                     <Image
-                        src={photo1}
+                        src={photo2}
                         alt="photo1"
                         className='w-full h-full object-cover rounded-xl'
                     />
                 </div>
                 <div className=' mt-3 sm:mt-5'>
-                    {/* <Link href="https://saykotblog.herokuapp.com">
+                    <Link href="https://beardo-lyart.vercel.app/">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Live Demo</button>
                         </a>
-                    </Link> */}
-                    <Link href="https://github.com/Saykot1997/mernblockapp">
+                    </Link>
+                    <Link href="https://github.com/Saykot1997/beardo">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Scorce Code</button>
                         </a>
                     </Link>
-                    <Link href="https://hub.docker.com/repository/docker/saykot/blog-frontend">
+                    {/* <Link href="https://hub.docker.com/repository/docker/saykot/space">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Docker Image</button>
                         </a>
-                    </Link>
+                    </Link> */}
                 </div>
 
-                <h3 className=' text-lg sm:text-2xl my-3 sm:my-5 font-semibold'>Blog Website</h3>
+                <h3 className=' text-lg sm:text-2xl my-3 sm:my-5 font-semibold'>React Responsive Website</h3>
 
-                <p className=' text-gray-700 text-sm sm:text-base'>This is a blog website.The purpose of making this website to enhance the personal skill of web developement and programing.
+                <p className=' text-gray-700 text-sm sm:text-base'>This is a next js responsive website. This is an offical web site of showcase the GIC D2C products.
                 </p>
-
-                {/* Features */}
-                <h3 className=' text-lg sm:text-xl font-semibold text-gray-800 mt-3'>Features :</h3>
-                <div>
-                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update, Delete user and their informations. </p>
-                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update, Delete Posts. </p>
-                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Create, Read, Update, Delete Posts Comments. </p>
-                    <p className='featuresItem'><span className=' mr-3 text-lg font-semibold'>*</span> Forget Password Reset. </p>
-                </div>
-                {/* Features */}
 
                 <div className='my-5 '>
                     <h3 className=' text-lg sm:text-xl my-3 sm:my-5 text-gray-800 font-semibold'>Technologies are used :</h3>
                     <div className=' mb-5'>
                         <h6 className='mb-2'>Frontend :</h6>
                         <div className='flex flex-wrap'>
-                            <span className='skilitem'>React.js</span>
-                            <span className='skilitem'>useContext</span>
-                            <span className='skilitem'>Styled Copmonents</span>
-                        </div>
-                    </div>
-                    <div className='mb-5'>
-                        <h6 className='my-2'>Backend / Full Stack :</h6>
-                        <div className='flex flex-wrap'>
-                            <span className='skilitem'>Node.js</span>
-                            <span className='skilitem'>Express.js</span>
-                            <span className='skilitem'>Json Web Token</span>
-                            <span className='skilitem'>Node Mailer</span>
-                            <span className='skilitem'>Mongodb</span>
-                            <span className='skilitem'>Mongoose</span>
-                        </div>
-                    </div>
-                    <div className=' mb-5'>
-                        <h6 className='my-2'>Oparation / Devops :</h6>
-                        <div className='flex flex-wrap'>
-                            <span className='skilitem'>Docker</span>
-                            <span className='skilitem'>Kubernetes</span>
+                            <span className='skilitem'>Next.js</span>
+                            <span className='skilitem'>Tailwind CSS</span>
+                            <span className='skilitem'>Redux</span>
+                            {/* <span className='skilitem'>Space API</span> */}
+                            {/* <span className='skilitem'>Docker</span> */}
                         </div>
                     </div>
                 </div>

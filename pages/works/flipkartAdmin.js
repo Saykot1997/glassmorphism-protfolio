@@ -36,11 +36,11 @@ export default function FlipkartAdmin() {
                     />
                 </div>
                 <div className=' mt-3 sm:mt-5'>
-                    <Link href="https://saykotflipkartadmin.herokuapp.com/">
+                    {/* <Link href="https://saykotflipkartadmin.herokuapp.com/">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Live Demo</button>
                         </a>
-                    </Link>
+                    </Link> */}
                     <Link href="https://github.com/Saykot1997/Flipkartclone">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Scorce Code</button>

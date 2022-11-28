@@ -41,11 +41,11 @@ export default function FacebookClone() {
                             <button className='commonbutton mt-3 lg:mt-0'>Live Demo</button>
                         </a>
                     </Link>
-                    <Link href="https://github.com/Saykot1997/excelDataAutomation">
+                    {/* <Link href="https://github.com/Saykot1997/excelDataAutomation">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Scorce Code</button>
                         </a>
-                    </Link>
+                    </Link> */}
                     {/* <Link href="https://hub.docker.com/repository/docker/saykot/facebook-clone-frontend">
                         <a target="_blank" rel="noopener noreferrer" >
                             <button className='commonbutton mt-3 lg:mt-0'>Docker Image</button>
@@ -87,13 +87,13 @@ export default function FacebookClone() {
                             <span className='skilitem'>Mongoose</span>
                         </div>
                     </div>
-                    {/* <div className=' mb-5'>
+                    <div className=' mb-5'>
                         <h6 className='my-2'>Oparation / Devops :</h6>
                         <div className='flex flex-wrap'>
-                            <span className='skilitem'>Docker</span>
-                            <span className='skilitem'>Kubernetes</span>
+                            {/* <span className='skilitem'>Shard hosting for React app</span> */}
+                            <span className='skilitem'>Disitalocen app for hosting mern app</span>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>

@@ -16,6 +16,11 @@ import photo10 from "../../images/work10.png"
 import photo11 from "../../images/work11.png"
 import photo12 from "../../images/work12.png"
 import photo13 from "../../images/work13.png"
+import photo15 from "../../images/work (1).png"
+import photo16 from "../../images/work (2).png"
+import photo17 from "../../images/work (3).png"
+import photo18 from "../../images/work (4).png"
+import photo19 from "../../images/work (5).png"
 import Image from 'next/image'
 
 
@@ -61,18 +66,18 @@ export default function Works() {
                                 {/* work items start */}
                                 <div className=' w-full'>
                                     <div className='workItems group'>
-                                        <Link href="/works/facebookClone">
+                                        <Link href="/works/dataAutomation">
                                             <a>
                                                 <Image
-                                                    src={photo3}
+                                                    src={photo16}
                                                     alt="work1"
                                                     className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
                                                 />
                                             </a>
                                         </Link>
                                     </div>
-                                    <p className=' text-xl my-4 px-2'>Facebook Clone</p>
-                                    <Link href="/works/facebookClone">
+                                    <p className=' text-xl my-4 px-2'>Data Automation</p>
+                                    <Link href="/works/dataAutomation">
                                         <a>
                                             <button className='commonbutton'>View Project</button>
                                         </a>
@@ -100,6 +105,28 @@ export default function Works() {
                                     </Link>
                                 </div>
                                 {/* work items end */}
+                                {/* work items start */}
+                                <div className=' w-full'>
+                                    <div className='workItems group'>
+                                        <Link href="/works/facebookClone">
+                                            <a>
+                                                <Image
+                                                    src={photo3}
+                                                    alt="work1"
+                                                    className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
+                                                />
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <p className=' text-xl my-4 px-2'>Facebook Clone</p>
+                                    <Link href="/works/facebookClone">
+                                        <a>
+                                            <button className='commonbutton'>View Project</button>
+                                        </a>
+                                    </Link>
+                                </div>
+                                {/* work items end */}
+
 
                                 {/* work items start */}
                                 <div className=' w-full'>
@@ -195,6 +222,48 @@ export default function Works() {
                             <p className=' text-lg sm:text-xl font-semibold mt-10 mb-5'>Frontend or Static Websites : </p>
                             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5'>
 
+                                {/* work items start */}
+                                <div className=' w-full'>
+                                    <div className='workItems group'>
+                                        <Link href="/works/beardo">
+                                            <a>
+                                                <Image
+                                                    src={photo19}
+                                                    alt="work1"
+                                                    className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
+                                                />
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <p className=' text-xl my-4 px-2'>E-commece</p>
+                                    <Link href="/works/beardo">
+                                        <a>
+                                            <button className='commonbutton'>View Project</button>
+                                        </a>
+                                    </Link>
+                                </div>
+                                {/* work items end */}
+                                {/* work items start */}
+                                <div className=' w-full'>
+                                    <div className='workItems group'>
+                                        <Link href="/works/ticketing">
+                                            <a>
+                                                <Image
+                                                    src={photo15}
+                                                    alt="work1"
+                                                    className='rounded-xl ease-in-out duration-500 group-hover:scale-110'
+                                                />
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <p className=' text-xl my-4 px-2'>Ticketing Invoice</p>
+                                    <Link href="/works/ticketing">
+                                        <a>
+                                            <button className='commonbutton'>View Project</button>
+                                        </a>
+                                    </Link>
+                                </div>
+                                {/* work items end */}
                                 {/* work items start */}
                                 <div className=' w-full'>
                                     <div className='workItems group'>
