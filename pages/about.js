@@ -11,6 +11,10 @@ export default function About() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter()
+    const [showExperience, setShowExperience] = useState(false);
+    const toggleShowExperience = () => {
+        setShowExperience(!showExperience)
+    }
 
     const menubarToggle = () => {
 
@@ -99,26 +103,44 @@ export default function About() {
                                     {/* skillls */}
                                     {/* education */}
                                     <div className='my-5'>
-                                        <span className=' text-red-500 mx-10 inline-block text-xl border-b-2 border-red-500'>Education</span>
+                                        <div className=' flex'>
+                                            <span onClick={toggleShowExperience} className={` mx-10 inline-block text-xl ${!showExperience ? "text-red-500 border-b-2 border-red-500" : "text-gray-900 border-b-2 border-gray-900"} cursor-pointer`}>Education</span>
+                                            <span onClick={toggleShowExperience} className={` mx-10 inline-block text-xl ${showExperience ? "text-red-500 border-b-2 border-red-500" : "text-gray-900 border-b-2 border-gray-900"} cursor-pointer`}>Experience</span>
+                                        </div>
                                         <div className="border-l-2 border-red-500">
-                                            <div className=' relative'>
-                                                <p className=' text-red-500 px-10 my-4'>2018 - 2021</p>
-                                                <h3 className=' text-lg sm:text-xl px-10'>Bachelor of Arts in English - <span className=' sm:text-lg'>Victoria University Of Bangladesh</span></h3>
-                                                <p className=' ml-10 my-2'>I have done Bachelor degree in English in Victoria University of Bangladesh in 2021.</p>
-                                                <div className=' absolute top-2 left-[-10px]  h-5 w-5 bg-red-500 rounded-full'></div>
-                                            </div>
-                                            <div className=' relative'>
-                                                <p className=' text-red-500 px-10 my-4'>2015 - 2017</p>
-                                                <h3 className=' text-lg sm:text-xl px-10'>HSC- <span className=' sm:text-lg'>Bhulta High School And Collage.</span></h3>
-                                                <p className=' ml-10 my-2'>I have completed Higher School Certificate study in Bhulta High School And Collage in 2017</p>
-                                                <div className=' absolute top-2 left-[-10px]  h-5 w-5 bg-red-500 rounded-full'></div>
-                                            </div>
-                                            <div className=' relative'>
-                                                <p className=' text-red-500 px-10 my-4'>2013</p>
-                                                <h3 className=' text-lg sm:text-xl px-10'>SSC- <span className=' sm:text-lg'>Parabo Ideal High School</span></h3>
-                                                <p className=' ml-10 my-2'>I have completed Secondery School Certificate study in Parabo Ideal High School in 2013.</p>
-                                                <div className=' absolute top-2 left-[-10px] h-5 w-5 bg-red-500 rounded-full'></div>
-                                            </div>
+                                            {
+                                                showExperience ?
+                                                    <>
+                                                        <div className=' relative'>
+                                                            <p className=' text-red-500 px-10 my-4'>April 2023  - Present</p>
+                                                            <h3 className=' text-lg sm:text-xl px-10'>Junior Web Developer - <span className=' text-sm sm:text-base font-medium'>Purple Algoritham Limited.</span></h3>
+                                                            <p className=' ml-10 my-2 font-medium text-[12px] text-sm'>Gulshan 1 3rd Floor, Nest Evana Tower, Rd 132, Dhaka 1212</p>
+                                                            <div className=' absolute top-2 left-[-10px]  h-5 w-5 bg-red-500 rounded-full'></div>
+                                                        </div>
+
+                                                    </>
+                                                    :
+                                                    <>
+                                                        <div className=' relative'>
+                                                            <p className=' text-red-500 px-10 my-4'>2018 - 2021</p>
+                                                            <h3 className=' text-lg sm:text-xl px-10'>Bachelor of Arts in English - <span className=' sm:text-lg'>Victoria University Of Bangladesh</span></h3>
+                                                            <p className=' ml-10 my-2'>I have done Bachelor degree in English in Victoria University of Bangladesh in 2021.</p>
+                                                            <div className=' absolute top-2 left-[-10px]  h-5 w-5 bg-red-500 rounded-full'></div>
+                                                        </div>
+                                                        <div className=' relative'>
+                                                            <p className=' text-red-500 px-10 my-4'>2015 - 2017</p>
+                                                            <h3 className=' text-lg sm:text-xl px-10'>HSC- <span className=' sm:text-lg'>Bhulta High School And Collage.</span></h3>
+                                                            <p className=' ml-10 my-2'>I have completed Higher School Certificate study in Bhulta High School And Collage in 2017</p>
+                                                            <div className=' absolute top-2 left-[-10px]  h-5 w-5 bg-red-500 rounded-full'></div>
+                                                        </div>
+                                                        <div className=' relative'>
+                                                            <p className=' text-red-500 px-10 my-4'>2013</p>
+                                                            <h3 className=' text-lg sm:text-xl px-10'>SSC- <span className=' sm:text-lg'>Parabo Ideal High School</span></h3>
+                                                            <p className=' ml-10 my-2'>I have completed Secondery School Certificate study in Parabo Ideal High School in 2013.</p>
+                                                            <div className=' absolute top-2 left-[-10px] h-5 w-5 bg-red-500 rounded-full'></div>
+                                                        </div>
+                                                    </>
+                                            }
                                         </div>
                                     </div>
                                     {/* education */}
